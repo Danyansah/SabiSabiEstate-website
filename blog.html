@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog - SabiSabi Estate</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!-- Scripts -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <!-- Custom Script for Parallax Effect -->
+    <script>
+        $(function(){
+            if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+                $('#ios-notice').removeClass('hidden');
+                $('.parallax-container').height($(window).height() * 0.5 | 0);
+            } else {
+                $(window).resize(function(){
+                    var parallaxHeight = 400;
+                    $('.parallax-container').height(parallaxHeight);
+                }).trigger('resize');
+            }
+        });
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <section id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">SabiSabi Estate</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="tag_menu" href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Property<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="list.html">Property</a></li>
+                                <li><a href="list_detail.html">Property Detail</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="tag_menu" href="team.html">Team</a></li>
+                        <li><a class="tag_menu" href="work.html">Our Work</a></li>
+                        <li class="dropdown">
+                            <a class="tag_menu active_tab" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Blog<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="details.html">Blog Detail</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="tag_menu" href="about.html">About</a></li>
+                        <li><a class="tag_menu" href="contact.html">Contact Us</a></li>             
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Blog Header Section -->
+    <section id="center" class="center_blog">
+        <div class="center_main_about clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="center clearfix">
+                        <h1>Our Blog</h1>
+                        <p>We join forces with the UK’s premier property platforms to facilitate a quick sale or lease of your property.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Content Section -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <!-- Blog Post 1 -->
+                    <div class="blog_post">
+                        <h2><a href="details.html">Interior Decor of our Building</a></h2>
+                        <ul class="blog_meta">
+                            <li><i class="fa fa-calendar"></i> 11.04.2024</li>
+                            <li><i class="fa fa-clock-o"></i> 2:20 pm</li>
+                            <li><i class="fa fa-tags"></i> People</li>
+                        </ul>
+                        <div class="blog_image">
+                            <a href="#"><img src="img/House23.jpg" alt="House23" style="width:100%;"></a>
+                        </div>
+                        <p>Behind every high-quality interior design service, our team is made up of in-house design consultants with extensive experience, up-to-date knowledge of the latest trends as well as the classic and traditional styles of buildings, and a flare for tailoring every project into an individual work of art.</p>
+                        <p class="read_more"><a href="details.html">Read More</a></p>
+                    </div>
+
+                    <!-- Blog Post 2 -->
+                    <div class="blog_post">
+                        <h2><a href="details.html">Combining a Modern and Traditional Interior Decor Service</a></h2>
+                        <ul class="blog_meta">
+                            <li><i class="fa fa-calendar"></i> 12.04.2024</li>
+                            <li><i class="fa fa-clock-o"></i> 3:42 pm</li>
+                            <li><i class="fa fa-tags"></i> People</li>
+                        </ul>
+                        <div class="blog_image">
+                            <a href="#"><img src="img/House24.jpg" alt="House24" style="width:100%;"></a>
+                        </div>
+                        <p>SabiSabi's journey in interior design began in simpler times, where coordination was key and imagination wasn't a big requirement. Everything from curtains to wallpaper matched seamlessly. Nowadays, the approach is much more creative and fulfilling, with a focus on mixing colors, fabrics, and designs to craft unique room settings. Each room designed by Gifty is tailored to our clients' individual tastes and personalities. This diversity allows her ample room to collaborate closely with our clients and bring their visions to life.</p>
+                        <p class="read_more"><a href="details.html">Read More</a></p>
+                    </div>
+                    <!-- Blog Post 3 -->
+                    <div class="blog_post">
+                        <h2><a href="details.html">Assisting Clients with Custom Interior Design Concepts</a></h2>
+                        <ul class="blog_meta">
+                            <li><i class="fa fa-calendar"></i> 12.05.2024</li>
+                            <li><i class="fa fa-clock-o"></i> 4:24 pm</li>
+                            <li><i class="fa fa-tags"></i> People</li>
+                        </ul>
+                        <div class="blog_image">
+                            <a href="#"><img src="img/Interior5.jpg" alt="Interior5" style="width:100%;"></a>
+                        </div>
+                        <p>At SabiSabi Estate Agents, we encourage clients to explore our two stunning showrooms before scheduling an appointment for our interior design service. Visiting these showrooms offers a chance to browse through our collection of books, fabrics, and wallpapers. This isn't just about gathering ideas; it's about embarking on a journey of discovery and defining the vision for your space. By gaining insights into your design preferences, our team can collaboratively craft a personalized design scheme for your home.</p>
+                        <p class="read_more"><a href="details.html">Read More</a></p>
+                    </div>
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <ul>
+                            <li><a href="#">1</a></li>
+                            <li><a href="details.html">2</a></li>
+                            <li><a href="details.html">3</a></li>
+                            <li><a href="details.html">>></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Sidebar (Optional) -->
+                <div class="col-sm-3">
+                    <!-- Add your sidebar content here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer_widget">
+                        <h3>ADDRESS</h3>
+                        <address>
+                            96 Kirkstall Place, Milton Keynes, UK.<br>
+                            <a href="tel:+447552160270">+(44)-7552160270</a><br>
+                            <a href="details.html">Agents</a>
+                        </address>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer_1">
+                       <h3>OPENING HOURS</h3>
+                       <div class="footer_2">
+                           <p>Mon  - : 9.00 am - 18.00 pm</p>
+                           <p>Tue  - : 9.00 am - 18.00 pm</p>
+                           <p>Wed  - : 9.00 am - 18.00 pm</p>
+                           <p>Thur - : 9.00 am - 18.00 pm</p>
+                           <p>Fri  - : 9.00 am - 18.00 pm</p>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                <div class="col-md-3">
+                    <div class="footer-widget">
+                        <h3>NEWSLETTER</h3>
+                        <form action="#">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <p>© 2024. All Rights Reserved. Design by <a href="mailto:sabi@gmail.com">Sabina Adu</a></p>
+                </div>
+            </div>
+            </div>
+            </footer>
+            </body>
+            </html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Details</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script>
+        $(function(){
+            if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+                $('#ios-notice').removeClass('hidden');
+                $('.parallax-container').height($(window).height() * 0.5 | 0);
+            } else {
+                $(window).resize(function(){
+                    var parallaxHeight = 400;
+                    $('.parallax-container').height(parallaxHeight);
+                }).trigger('resize');
+            }
+        });
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <section id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">SabiSabi Estate</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="tag_menu" href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Property<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="list.html">Property</a></li>
+                                <li><a href="list_detail.html">Property Detail</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="tag_menu" href="team.html">Team</a></li>
+                        <li><a class="tag_menu" href="work.html">Our Work</a></li>
+                        <li class="dropdown">
+                            <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Blog<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="details.html">Blog Detail</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="tag_menu" href="about.html">About</a></li>
+                        <li><a class="tag_menu active_tab" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section id="center" class="center_contact">
+        <div class="center_main_about clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="center clearfix">
+                        <h1>Contact Us</h1>
+                        <p>We join forces with the UK’s premier property platforms to facilitate a quick sale or lease of your property.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 padding_all">
+                    <div class="col-sm-8 padding_all">
+                        <div class="contact_1">
+                            <h3>CONTACT US</h3>
+                            <p>Be informed, subscribe to our newsletter today. Receive the latest industry insights, product updates, and more.</p>
+                        </div>
+                        <div class="col-sm-12 padding_all">
+                            <div class="contact_2"><input type="text" class="form-control" placeholder="Name"></div>
+                        </div>
+                        <div class="col-sm-12 padding_all">
+                            <div class="contact_2"><input type="text" class="form-control" placeholder="Email"></div>
+                        </div>
+                        <div class="col-sm-12 padding_all">
+                            <div class="contact_2"><input type="text" class="form-control" placeholder="Mobile"></div>
+                        </div>
+                        <div class="col-sm-12 padding_all">
+                            <div class="contact_3 clearfix"><textarea placeholder="Write Here" class="form-control"></textarea></div>
+                        </div>
+                        <div class="contact_4 clearfix">
+                            <p><a href="#">Message</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 padding_all">
+                        <div class="contact_main clearfix">
+                            <div class="contact_5">
+                                <h3>Social Media</h3>
+                                <ul>
+                                    <li><a href="https://www.facebook.com/Sabina Adu"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/@sabisabi"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.gmail.com/sabinaadu3"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="https://www.instagram.com/@sabisabi"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-yahoo"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="contact_6">
+                                <h3>Phones</h3>
+                                <p><a href="tel:+447552160270">+(44)-75521602702</a></p>
+                                <p class="block_1"><a href="tel:+447552160270">+(44)-7552160270</a></p>
+                            </div>
+                            <div class="contact_7">
+                                <h3>E-mail</h3>
+                                <p><a href="mailto:info.sabisabiestate@gmail.com">info.sabisabiestate@gmail.com</a></p>
+                            </div>
+                            <div class="contact_6">
+                                <h3>Address</h3>
+                                <p class="block_2">96 Kirkstall Place, Milton Keynes, UK.</p>
+                            </div>
+                            <div class="contact_6">
+                                <h3>Opening Hours</h3>
+                                <p class="block_3">9:00 am - 18:00 Mon - Fri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_l col-sm-12 clearfix">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2454.666285831986!2d-0.7680930244434254!3d52.03117687230679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877aaa5dae21cef%3A0xb4dad1fa4ee08356!2sKirkstall%20Pl%2C%20Oldbrook%2C%20Milton%20Keynes%20MK6%202XB!5e0!3m2!1sen!2suk!4v1716466144713!5m2!1sen!2suk" width="950" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-3">
+                        <div class="footer_1">
+                            <h3>ADDRESS</h3>
+                            <p>96 Kirkstall Place, Milton Keynes, UK.</p>
+                            <p><a href="tel:+447552160270">+(44)-7552160270</a></p>
+                            <p><a href="agents.html">Agents</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer_1">
+                           <h3>OPENING HOURS</h3>
+                           <div class="footer_2">
+                               <p>Mon  - : 9.00 am - 18.00 pm</p>
+                               <p>Tue  - : 9.00 am - 18.00 pm</p>
+                               <p>Wed  - : 9.00 am - 18.00 pm</p>
+                               <p>Thur - : 9.00 am - 18.00 pm</p>
+                               <p>Fri  - : 9.00 am - 18.00 pm</p>
+                          </div>
+                        </div>
+                       </div>
+                      </div>
+                     </div>
+                    <div class="col-md-3">
+                        <div class="footer-widget">
+                            <h3>NEWSLETTER</h3>
+                            <form action="#">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12">
+                        <p>© 2024. All Rights Reserved. Design by <a href="mailto:sabi@gmail.com">Sabina Adu</a></p>
+                    </div>
+                </div>
+                </div>
+                </footer>
+                </body>
+                </html>

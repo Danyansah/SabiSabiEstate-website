@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>List_Details</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+       <script src="js/jquery-2.1.1.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+	   <script>
+		$(function(){
+			if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+			  $('#ios-notice').removeClass('hidden');
+			  $('.parallax-container').height( $(window).height() * 0.5 | 0 );
+			} else {
+			  $(window).resize(function(){
+				var parallaxHeight =400;//Math.max($(window).height() * 0.7, 200) | 0;
+				$('.parallax-container').height(parallaxHeight);
+			  }).trigger('resize');
+			}
+		  });
+	</script>
+	   <script src="js/parallax.min.js"></script>
+  </head>
+<body>
+	<ul>
+		<li><i class="fa fa-phone"></i><a href="#">+233542006462</a></li>
+		<li><i class="fa fa-envelope"></i><a href="#">SabiSabi@gmail.com</a></li>
+   </ul>
+<section id="header">
+	<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">SabiSabi Estate</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="tag_menu" href="index.html">Home</a>
+                    </li>
+					<li class="dropdown">
+					  <a class="tag_menu active_tab" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Property<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="list.html">Property</a></li>
+						<li><a href="list_detail.html">Property Detail</a></li>
+					  </ul>
+                    </li>
+					<li>
+                        <a class="tag_menu" href="team.html">Team</a>
+                    </li>
+					
+					<li>
+                        <a class="tag_menu" href="work.html">Our Work</a>
+                    </li>
+					
+					<li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Blog<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="details.html">Blog Detail</a></li>
+					  </ul>
+                    </li>
+					
+					<li>
+                        <a class="tag_menu" href="about.html">About</a>
+                    </li>
+					<li>
+                        <a class="tag_menu" href="contact.html">Contact Us</a>
+                    </li>					
+                </ul>
+				 
+            </div>
+        </div>
+    </nav>
+</section>
+<section id="center" class="center_list_detail">
+ <div class="center_main_about clearfix">
+   <div class="container">
+  <div class="row">
+   <div class="center clearfix">
+     <h1> Property Detail </h1>
+	 <p> We join forces with the UK’s premier property platforms <br> to  facilitate a quick sale or lease of your property.</p>
+   </div>
+  </div>
+ </div>
+ </div>
+</section>
+<section id="list_detail">
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+	 <div class="list_detail_lm clearfix">
+	   <div class="list_detail_lm1 clearfix">
+	     <div class="carousel slide article-slide" id="article-photo-carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner cont-slider">
+    <div class="item">
+      <img alt="" title="" src="img/Interior12.jpg">
+    </div>
+    <div class="item">
+      <img alt="" title="" src="img/Interior10.jpg">
+    </div>
+    <div class="item">
+      <img alt="" title="" src="img/Interior11.jpg">
+    </div>
+    <div class="item active">
+      <img alt="" title="" src="img/House87.jpg">
+    </div>
+  </div>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li class="" data-slide-to="0" data-target="#article-photo-carousel">
+      <img alt="" src="img/Interior12.jpg">
+    </li>
+    <li class="" data-slide-to="1" data-target="#article-photo-carousel">
+      <img alt="" src="img/Interior10.jpg">
+    </li>
+    <li class="" data-slide-to="2" data-target="#article-photo-carousel">
+      <img alt="" src="img/Interior11.jpg">
+    </li>
+    <li class="active" data-slide-to="3" data-target="#article-photo-carousel">
+      <img alt="" src="img/House87.jpg">
+    </li>
+  </ol>
+</div>
+	   </div>
+	   <div class="list_detail_lm2 clearfix">
+	    <div class="col-sm-6">
+		 <div class="list_detail_lm2l">
+		  <ul>
+		   <li><span>Property type:</span> Apartment </li>
+		   <li><span>City:</span> Milton Keynes  </li>
+		   <li><span>Neighborhood:</span> Oldbrook  </li>
+		   <li><span>Bedrooms:</span> 7 </li>
+		   <li><span>Property size:</span> 1600 ft²</li>
+		  </ul>
+		 </div>
+		</div>
+		<div class="col-sm-6">
+		 <div class="list_detail_lm2l">
+		  <ul>
+		   <li><span>Offer type:</span> For Sale, Open House  </li>
+		   <li><span>Post Code:</span> MK6 4HU  </li>
+		   <li><span>Street:</span> Beadlemead Street </li>
+		   <li><span>Bathrooms:</span> 6 </li>
+		   <li><span>Year:</span> 2024</li>
+		  </ul>
+		 </div>
+		</div>
+	   </div>
+	   <div class="list_detail_lm3 clearfix">
+	    <div class="list_detail_lm3i clearfix">
+		   <h3 class="text-center">ATTRIBUTES</h3>
+		</div>
+		<div class="list_detail_lm3i1 clearfix">
+		   <div class="col-sm-4">
+			  <div class="list_detail_lm3i1i clearfix">
+				 <ul> 
+				  <li>Gym</li>
+				  <li>Microwave</li>
+				  <li>Kettle</li>
+				 </ul>
+			  </div>
+		</div>
+		   <div class="col-sm-4">
+			  <div class="list_detail_lm3i1i clearfix">
+				 <ul> 
+				  <li>Dish washer</li>
+				  <li>Oven</li>
+				  <li>Washing Machine</li>
+				 </ul>
+			  </div>
+		   </div>
+		   <div class="col-sm-4">
+			  <div class="list_detail_lm3i1i clearfix">
+				 <ul> 
+				  <li>Balcony</li>
+				  <li>Swimming Pool</li>
+				  <li>Nice Garden</li>
+				 </ul>
+			  </div>
+		    </div>
+		</div>
+	   </div>
+	   <div class="list_detail_lm3 clearfix">
+	    <div class="list_detail_lm3i clearfix">
+		   <h3 class="text-center">PROPERTY DIRECT DETAILS</h3>
+		</div>
+		<div class="list_detail_lm3i1 clearfix">
+		 <p>We are thrilled to present this fantastic and adaptable detached family residence, boasting four/five bedrooms, situated in a sought-after community with convenient proximity to Chester City Centre and within walking distance to Chester Business Park. The residence falls within the catchment zone for the exceptional The Kings School, making it perfect for expanding families or professionals seeking a convenient locale. </p>
+		 <p>Briefly, the property includes: an Entry Foyer, a Kitchen equipped with integrated appliances, flowing seamlessly into the expansive open-plan living/dining area, and a separate Powder Room. On the First Floor, there is either a secondary reception space or fifth Bedroom featuring a Juliet Balcony with views of the rear facade, along with the fourth bedroom and a family bathroom.</p>
+		 <p> On the uppermost level, you'll find the master Bedroom complete with an Ensuite, alongside bedrooms two and three, as well as a family bathroom. Outside, there's ample parking space on the driveway for multiple vehicles, while the rear of the property features a neatly manicured lawn and a storage shed.</p>
+		 <ul class="social-network social-circle">
+                        <li><a href="https://www.rss.com" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="https://www.facebook.com" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com/@sabisabi" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.google.com" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://www.linkedin.com" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+		</div>
+	   </div>
+	   <div class="col-sm-12">
+         <div class="properties_1">
+	      <h3 class="text-center">COUPLED PROPERTIES IN THE UK</h3>
+	      <p class="text-center">Choose your Choice</p>
+	    </div>
+	     <div class="list_1 clearfix">
+	 <div class="col-sm-6">
+	  <div class="list_1_1 clearfix">
+	   <a href="#"><img src="img/House5.jpg" width="100%" alt="abc"></a>
+	    <div class="list_1_1i clearfix">
+		  <h3><a href="#">Approved Apartment in the City of Milton Keynes</a></h3>
+	   <p><i class="fa fa-map-marker"></i> 93 Kirkstall Place, Milton Keynes, Buckinghamshire</p>
+	   <h4>£ 700,000</h4>
+	   <ul class="nav_list">
+	     <li><span>Bedrooms:</span> 4</li>
+		 <li><span>Bathrooms:</span> 3</li>
+		 <li><span>Land size:</span> 1200 ft²</li>
+	   </ul>
+	   <ul class="nav_list_1">
+	     <li><span class="date">2 weeks ago</span></li>
+		 <li><span class="comp"><a href="#">COLLATE</a></span></li>
+		 <li><span class="det"><a href="#">DETAILS</a></span></li>
+	   </ul>
+		</div>
+	  </div>
+	 </div>
+	 
+	 <div class="col-sm-6">
+	  <div class="list_1_1 clearfix">
+	   <a href="#"><img src="img/House4.jpg" width="100%" alt="abc"></a>
+	    <div class="list_1_1i clearfix">
+		  <h3><a href="#">Approved Apartment in the City of Luton</a></h3>
+	   <p><i class="fa fa-map-marker"></i> 36 Brantwood Road, Luton, Bedfordshire</p>
+	   <h4>£ 900,000</h4>
+	   <ul class="nav_list">
+	     <li><span>Bedrooms:</span> 3</li>
+		 <li><span>Bathrooms:</span> 2</li>
+		 <li><span>Land size:</span> 1200 ft²</li>
+	   </ul>
+	   <ul class="nav_list_1">
+	     <li><span class="date">3 weeks ago</span></li>
+		 <li><span class="comp"><a href="#">COLLATE</a></span></li>
+		 <li><span class="det"><a href="#">DETAILS</a></span></li>
+	   </ul>
+		</div>
+	  </div>
+	 </div>
+	</div>
+	<div class="list_1 clearfix">
+	 <div class="col-sm-6">
+	  <div class="list_1_1 clearfix">
+	   <a href="#"><img src="img/House20.jpg" width="100%" alt="abc"></a>
+	    <div class="list_1_1i clearfix">
+		  <h3><a href="#">Approved Apartment in the City of Netherfield</a></h3>
+	   <p><i class="fa fa-map-marker"></i> No 68 Beadlemead, Netherfield, Milton Keynes</p>
+	   <h4>£ 600,000</h4>
+	   <ul class="nav_list">
+	     <li><span>Bedrooms:</span> 2</li>
+		 <li><span>Bathrooms:</span> 2</li>
+		 <li><span>Land size:</span> 1200 ft²</li>
+	   </ul>
+	   <ul class="nav_list_1">
+	     <li><span class="date">2 weeks ago</span></li>
+		 <li><span class="comp"><a href="#">COLLATE</a></span></li>
+		 <li><span class="det"><a href="#">DETAILS</a></span></li>
+	   </ul>
+		</div>
+	  </div>
+	 </div>
+	 <div class="col-sm-6">
+	  <div class="list_1_1 clearfix">
+	   <a href="#"><img src="img/House72.jpg" width="100%" alt="abc"></a>
+	    <div class="list_1_1i clearfix">
+		  <h3><a href="#">Aproved Apartment in the City of Aylesbury</a></h3>
+	   <p><i class="fa fa-map-marker"></i> HP18, Aylesbury, Oxfordshire</p>
+	   <h4>£ 950,000</h4>
+	   <ul class="nav_list">
+	     <li><span>Bedrooms:</span> 4</li>
+		 <li><span>Bathrooms:</span> 3</li>
+		 <li><span>Land size:</span> 1200 ft²</li>
+	   </ul>
+	   <ul class="nav_list_1">
+	     <li><span class="date">3 weeks ago</span></li>
+		 <li><span class="comp"><a href="#">COLLATE</a></span></li>
+		 <li><span class="det"><a href="#">DETAILS</a></span></li>
+	   </ul>
+		</div>
+	  </div>
+	 </div>
+	</div>
+   </div>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="list_detail_rm clearfix">
+	  <div class="list_detail_rm_1 clearfix">
+	    <ul>
+		 <li class="bg_1">£ 900,000.00</li>
+		 <li class="bg_2"><a href="#"><i class="fa fa-phone"></i> +(44)-7770414495</a></li>
+		 <li class="bg_2"><a href="https://www.google.com/maps/place/Milton Keynes"><i class="fa fa-map-marker"></i> See Map</a></li>
+		 <li class="bg_2"><a href="#"><i class="fa fa-heart-o"></i> Add to Basket</a></li>
+		 <li class="bg_2"><a href="#"><i class="fa fa-files-o"></i> Add to compare</a></li>
+		</ul>
+	  </div>
+	  <div class="list_detail_rm_2 clearfix">
+	   <h3>Respond to the Listing</h3>
+	   <input class="form-control" placeholder="Your name" type="text">
+	   <input class="form-control" placeholder="Mobile" type="text">
+	   <input class="form-control" placeholder="Email" type="text">
+	   <textarea placeholder="Message" class="form-control form_1"></textarea>
+	   <h4><a href="/action_page.php">Enter</a></h4>
+	  </div>
+	  <div class="list_detail_rm_3 clearfix">
+	    <h3>Beautiful Building</h3>
+		<a href="#"><img src="img/House19.jpg" style="width:100%;" alt="abc"></a>
+		<ul>
+		 <li><a href="#"><i class="fa fa-phone"></i> +44-77733321</a></li>
+		 <li><a href="#"><i class="fa fa-envelope"></i> info.sabisabiestate@gmail.com</a></li>
+		 <li><span>Organization:</span> SabiSabi Estate Agents</li>
+		</ul>
+	  </div>
+	  <div class="blog_4">
+	   <a href="#"><img src="img/House3.jpg" alt="img" style="width:100%;"></a>
+	 </div>
+	  <div class="blog_5">
+	  <p><a href="details.html">.</a></p>
+	 </div>
+	 </div>
+	</div>
+  </div>
+ </div>
+</section>
+<section id="footer">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+    <div class="col-sm-3">
+	 <div class="footer_1">
+	  <h3>ADDRESS</h3>
+	  <h4>96 kirkstall place, Milton Keynes, UK.</h4>
+	  <h5><a href="#">+(44)-7552160270</a></h5>
+	  <p><a href="#">Agents</a></p>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_1">
+	  <h3>SERVICE ASSISTANT</h3>
+	   <ul>
+		<li><i> >> </i><a href="team.html">Amponsah</a></li>
+		<li><i> >> </i><a href="team.html">Porshia</a></li>
+		<li><i> >> </i><a href="team.html">Tony</a></li>
+		</ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+		<div class="footer_1">
+		   <h3>OPENING HOURS</h3>
+		   <div class="footer_2">
+			   <p>Mon  - : 9.00 am - 18.00 pm</p>
+			   <p>Tue  - : 9.00 am - 18.00 pm</p>
+			   <p>Wed  - : 9.00 am - 18.00 pm</p>
+			   <p>Thur - : 9.00 am - 18.00 pm</p>
+			   <p>Fri  - : 9.00 am - 18.00 pm</p>
+		  </div>
+		</div>
+	   </div>
+	  </div>
+	 </div>
+	<div class="col-md-3">
+		<div class="footer-widget">
+			<h3>NEWSLETTER</h3>
+			<form action="#">
+				<input type="email" class="form-control" placeholder="Enter your email">
+				<button type="submit" class="btn btn-primary">Subscribe</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="row text-center">
+	<div class="col-12">
+		<p>© 2024. All Rights Reserved. Design by <a href="mailto:sabi@gmail.com">Sabina Adu</a></p>
+	</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
